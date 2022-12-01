@@ -10,7 +10,8 @@ namespace Calculator
             Soma();
         }
 
-        static void Soma(){
+        static void Soma()
+        {
 
             Console.Clear();
 
@@ -22,11 +23,12 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da soma é {v1 + v2}");
+            Console.WriteLine($"O resultado da soma é: {v1 + v2}");
             Console.ReadKey();
         }
 
-        static void Subtracao(){
+        static void Subtracao()
+        {
 
             Console.Clear();
 
@@ -38,7 +40,24 @@ namespace Calculator
 
             Console.WriteLine("");
 
-            Console.WriteLine($"O resultado da soma é {v1 - v2}");
+            Console.WriteLine($"O resultado da subtração é: {v1 - v2}");
+            Console.ReadKey();
+        }
+
+        static void Divisao()
+        {
+
+            Console.Clear();
+
+            Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Primeiro valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+
+            Console.WriteLine($"O resultado da divisão é {v1 / v2}");
             Console.ReadKey();
         }
     }
