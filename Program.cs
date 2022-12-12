@@ -45,7 +45,6 @@ namespace Calculator
                     Menu();
                     break;
             }
-
         }
 
         static void Soma()
